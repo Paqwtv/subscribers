@@ -2,22 +2,12 @@
 
 - git clone
 
--
+- docker-compose build
 
-* Ruby version
+- docker pull mysql:5.7
 
-* System dependencies
+- make sure your database contains the required table "aviasales_killer"
 
-* Configuration
+- docker-compose up
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- docker-compose run app bundle exec rspec 

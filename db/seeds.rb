@@ -8,7 +8,7 @@
 
 100.times do
   Program.create(title: FFaker::Book.title, description: FFaker::Book.description)
-  User.create(name: FFaker::NameCN.name, email: FFaker::Internet.email, password: SecureRandom.uuid)
+  User.create(name: FFaker::Name.name, email: FFaker::Internet.email, password: SecureRandom.uuid)
 end
 
 p Program.count
