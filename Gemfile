@@ -43,7 +43,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'nokogiri', '~> 1.10.8'
+gem 'nokogiri', '~> 1.13.9'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'fast_jsonapi'
 gem 'will_paginate', '~> 3.1.0'
